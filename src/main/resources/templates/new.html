@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Add Data</title>
+
+        <style>
+            body {
+                background-color: whitesmoke;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div align="center">
+            <h1>Add Student's Data</h1>
+            <br />
+
+            <form action="#" th:action="@{/save}" th:object="${student}"
+                  method="post">
+
+                <table
+                    style="border-collapse: separate; border-spacing: 25px; background-color: lightblue; border-radius: 20px; boxshadow: 10px 10px 5px #999;">
+
+                    <tr>
+                        <td>Student Name:</td>
+                        <td><input type="hidden" th:field="*{id}" /> <input
+                                type="text" th:field="*{name}"  /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Address:</td>
+                        <td><input type="text" th:field="*{address}" /></td>                                 
+                    </tr>
+
+
+                    <tr>
+                        <td>Phone:</td>
+                        <td><input type="text" th:field="*{phone}" /></td>
+                    </tr>
+
+                    <br>
+                    <tr>
+                        <td colspan="2" style="text-align: center;"><button
+                                type="submit"
+                                style="padding: 8px 20px; box-shadow: 2px 2px 5px #999;">Save
+                                Data</button></td>
+                    </tr>
+                </table>
+            </form>
+
+            <br />
+            <form action="#" th:action="@{/}" th:object="${student}" method="get">
+
+                <input type="submit" value="View Data"
+                       style="padding: 8px 20px; box-shadow: 2px 2px 5px #999;">
+            </form>
+        </div>
+    </body>
+</html>
