@@ -30,8 +30,7 @@ public class StudentController {
     /**
      * Handles the HTTP GET request for the home page.
      *
-     * @param model The Model object that is used to store and pass data from
-     * the controller to the view.
+     * @param model The Model object that is used to store and pass data from  the controller to the view.
      * @return The view named "index" to render the home page.
      */
     @GetMapping("/")
