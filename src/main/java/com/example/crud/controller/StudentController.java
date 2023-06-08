@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.crud.domain.Student;
+import com.example.crud.entity.Student;
 import com.example.crud.service.StudentService;
 
 /**
