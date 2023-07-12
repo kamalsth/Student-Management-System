@@ -1,5 +1,5 @@
 # Student-Management-System
-Student Management System using Java spring boot and mysql.
+Demo of Student Management System using Java spring boot and mysql.
 
 **1) Add new student's data**
 
@@ -7,7 +7,7 @@ Student Management System using Java spring boot and mysql.
 
 
 
-**2) Fetch student's details **
+**2) Fetch student's details**
 
 ![image](https://github.com/kamalsth/Student-Management-System/assets/118610849/1c968b82-baeb-4353-8606-811c27f96a40)
 
